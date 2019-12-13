@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pip23">
+    <output-path>$PROJECT_DIR$/out/artifacts/pip23</output-path>
+    <root id="archive" name="pip23.war">
+      <element id="artifact" artifact-name="pip2" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,85 @@
+
+html {
+    display: flex;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 22px;
+    justify-content: center;
+
+}
+body{
+    background: linear-gradient(#96858F, #6D7993);
+    margin: 0;
+    padding: 10px 0px;
+    font-family: Palatino, URW Palladio L, serif;
+    width: 100%;
+
+}
+
+header {
+    color: white;
+    padding: 1px;
+    font-size: large;
+    margin: 0;
+    border-bottom: 3px solid white;
+    text-align: center;
+
+}
+.error{
+    color: red;
+}
+#canv{
+    text-align: center;
+    margin: 20px auto;
+}
+canvas{
+    border: 1px solid white;
+}
+form{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border-radius: 20px;
+}
+table th {
+    padding: 12px 10px;
+    border-bottom: 2px solid white;
+    color: lavender;
+}
+td {
+    padding: 10px;
+    color: white;
+}
+td:nth-child(4n){
+    color: lavender;
+}
+#xErrorLine, #yErrorLine, #rErrorLine{
+    color: red;
+    font-size: small;
+}
+
+/*@media (min-width:100px)  {*/
+/*    .content{*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*    form{*/
+/*        text-align: left;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width:1326px)  {*/
+/*    .content{*/
+/*        display: flex;*/
+/*        flex-direction: row;*/
+/*    }*/
+/*    form{*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
