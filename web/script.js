@@ -51,32 +51,6 @@ function validate() {
 function showMessage(messageHTML, element) {
     document.getElementById(element).innerHTML = messageHTML;
 }
-//
-// function sendRequest() {
-//     let xhr = new XMLHttpRequest();
-//     const body = "xValue="+encodeURIComponent(x)+
-//         "yValue="+encodeURIComponent(y)+
-//         "rValue="+encodeURIComponent(r);
-//     xhr.open('POST','/pip2/controller');
-//     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-//     xhr.onreadystatechange = function() {
-//         if (this.readyState !== 4)
-//             return;
-//         alert( "aa" );
-//     };
-//     xhr.send(body);
-//     // xhr.onload = function(){
-//     //     document.location.href='/pip2/controller';
-//     // };
-//
-// }
-
-// document.getElementById("submitButton").onclick = function submit(e) {
-//     e.preventDefault();
-//     if(validR() && validX() && validY()){
-//         sendRequest();
-//     }
-// };
 
 let canvas = document.querySelector("#graph");
 let c = canvas.getContext("2d");

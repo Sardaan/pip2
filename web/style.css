@@ -63,23 +63,3 @@ td:nth-child(4n){
     color: red;
     font-size: small;
 }
-
-/*@media (min-width:100px)  {*/
-/*    .content{*/
-/*        display: flex;*/
-/*        flex-direction: column;*/
-/*    }*/
-/*    form{*/
-/*        text-align: left;*/
-/*    }*/
-/*}*/
-
-/*@media (min-width:1326px)  {*/
-/*    .content{*/
-/*        display: flex;*/
-/*        flex-direction: row;*/
-/*    }*/
-/*    form{*/
-/*        text-align: center;*/
-/*    }*/
-/*}*/
